@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let now = new Date();
+    let hour = now.getHours();
+    let minutes = now.getMinutes();
+    let name = 'abi';
+
+  if (hour >= 6 && hour < 12){
+    console.log(`hello ${name} it is ${hour} : ${minutes} good morning!`);
+  }else if (hour >= 12 && hour <17){
+    console.log("`hello ${name}, it is ${hour}:${minutes} good afternoon!")
+  }
+  else {
+    console.log("hello ${name}, it is ${hour}:${minutes} good night!")
+  }
+  </script>
+</body>
+</html>
